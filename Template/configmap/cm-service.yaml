@@ -5,14 +5,12 @@ metadata:
   labels:
     version: v2
     service: atomi.core.random-var~name~
-    env: dev
   annotations:
     created-by: var~name~
 spec:
   selector:
     version: v2
     service: atomi.core.random-var~name~
-    env: dev
   type: ClusterIP
   ports:
   - name: http
