@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: random-v2-cm-var~name~
+data:
+  path_to_my_config: config.yaml
+  environment: DEV
