@@ -30,4 +30,12 @@ spec:
     ports:
     - containerPort: 3000
       name:  http
+    volumeMounts:
+      - name: config
+        mountPath: "/config"
+        readOnly: true
+  volumes:
+    - name: config
+      configMap:
+        name: random-v2-cm-fs-var~name~
   restartPolicy: Always
