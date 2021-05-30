@@ -1,7 +1,7 @@
 {
 	"name":   "The Humble Programmer 2 K8S 2",
-	"key":    "thp-2-k8s-2",
-	"repo":   "git@github.com:kirinnee/thp-k8s-2.git",
-	"email":  "kirinnee@gmail.com",
+	"key":    "thp2_k8s2",
+	"repo":   "https://github.com/kirinnee/thp-k8s-2.git",
+	"email":  "kirinnee97@gmail.com",
 	"readme": "README.MD"
 }

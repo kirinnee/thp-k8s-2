@@ -16,7 +16,7 @@ Hands-on material for The Humble Programmer 2 Kubernetes 2
      
 3. Install this template
     ```bash
-    $ cyan i thp-2-k8s-2 [group]
+    $ cyan i thp2_k8s2 [group]
     ```
 4. Create templates from via CyanPrint CLI
     ```bash
